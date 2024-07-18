@@ -1,63 +1,65 @@
-ul{
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.673);
-    margin: 0%;
+*{
+    margin: 0;
+   padding: 0;
+  box-sizing: border-box;
 }
-body{
-    margin: 0px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-
+nav{
+    height: 40px;
+    background-color: #2c2929d0;
 }
-.nav li{
-        display: inline-block;
-        font-size: 15px 10px;
+.menu ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding-left: 100px;
 }
-li a{
-    display: block;
-    padding: 14px 16px;
+.menu ul li{
+  list-style: none;
+  margin: 2px 15px;
+}
+.menu ul li a{
     text-decoration: none;
-    color: whitesmoke;
+    font-size: 20px;
+    color: beige;
 }
-.para{
+.text{
+    height: 40px;
+    background-color: rgb(38, 36, 36);
+}
+.text p{
     text-align: center;
-    width: 100%;
-    padding: 5px 5px;
-    background-color: rgba(12, 11, 11, 0.778);
-    color: azure;
+    padding: 5px;
+    color: antiquewhite;
 }
-.para a{
-    color: blue;
+.text a{
+    text-decoration: none;
+    color: rgb(58, 58, 165);
 }
 .container{
-    width: 100%;
-    background-color: rgb(47, 42, 42);
-    height: 40px;
+    max-width: 100%;
+    max-height: 100%;
 }
 img{
     width: 100%;
 }
-h1.h15{
+.sub{
     position: absolute;
-    top: 140px;
-    left: 500px;
+    color: white;
+    top: 20%;
+    left: 30%;
+    margin:0;
     text-align: center;
-    color: azure;
-   
 }
-h2.h215{
-    text-align: center;
+.sub1{
+    display: flex;
     position: absolute;
-    top: 200px;
-    left: 450px;
-    color: azure;
+    top: 33%;
+    left: 37%;
 }
-.lm{
-    position: absolute;
-    top: 270px;
-    left: 500px;
-    text-align: center;
+.sub1 a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
 }
 .lm a{
     text-decoration: none;
@@ -65,13 +67,7 @@ h2.h215{
     font-size: 19px;
     background-color: rgb(13, 100, 223);
     border-radius: 25px;
-    padding: 10px 15px;
-}
-.by{
-    position: absolute;
-    top: 270px;
-    left: 650px;
-    text-align: center;
+    padding: 10px 10px;
 }
 .by a{
     color: white;
@@ -79,56 +75,51 @@ h2.h215{
     background-color: black;
     border: solid blue;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 10px;
     text-decoration: none;
 }
 .by a:hover{
     background-color: blue;
     cursor: pointer;
-    }
-.pro{
+ }
+ .sup{
     position: absolute;
-    top: 850px;
-    left: 600px;
-    text-align: center;
-    color: black
-}
-.new{
-    position: absolute;
-    top: 905px;
-    left: 490px;
-    text-align: center;
     color: black;
-}
-.link1{
-    position:absolute;
-    top: 970px;
-    left:600px;
-}
-.link1 a{
-    text-decoration: none;
-    border-radius: 30px;
-    color: white;
-    background-color: blue;
-    font-size: 19px;
-    padding: 8px;
-}
-.link2{
+    top: 130%;
+    left: 30%;
+    margin: 0;
+    text-align: center;
+ }
+.sup1{
+    display: flex;
     position: absolute;
-    top: 970px;
-    left: 715px;
+    top: 145%;
+    left: 38%;
 }
-.link2 a{
+.sup1 a{
     text-decoration: none;
-    border: solid blue;
-    border-radius: 30px;
-    color:blue;
-    background-color:white;
+    margin: 5px;
+}
+.lm1 a{
+    text-decoration: none;
+    color: white;
     font-size: 19px;
-    padding: 8px;
+    background-color: rgb(13, 100, 223);
+    border-radius: 25px;
+    padding: 10px 10px;
 
 }
-.link2 a:hover{
+.by2 a{
+    color: blue;
+    font-size: 19px;
+    background-color:white;
+    border: solid blue;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.by2 a:hover{
+
     background-color: black;
-    cursor: pointer;
 }
