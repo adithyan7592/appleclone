@@ -39,10 +39,10 @@ nav{
     color: rgb(58, 58, 165);
 }
 .container{
-    position: relative;
+    /* position: relative; */
 }
 .container2{
-    position: relative;
+    /* position: relative; */
  
 }
 .img1,.img2{
@@ -52,17 +52,17 @@ nav{
     position: absolute;
     color: white;
     top: 15%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    left: 28%;
+    /* transform: translate(-50%, -50%); */
     margin:0;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 .sub1{
     display: flex;
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 40%;
+    left: 45%;
 }
 .sub1 a{
     text-decoration: none;
@@ -93,16 +93,16 @@ nav{
  .sup{
     position: absolute;
     color: rgb(22, 21, 21);
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 800px;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
  }
 .sup1{
     display: flex;
     position: absolute;
-    top: 120px;
+    top: 950px;
     left: 42%;
 }
 .sup1 a{
@@ -144,6 +144,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color:whitesmoke;
+    
 
 }
 .griditem .img1{
@@ -160,7 +161,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color:whitesmoke;
-    position: relative;
+    /* position: relative; */
 
 }
 .grid1 .img3{
@@ -180,7 +181,7 @@ nav{
  display:grid;
  grid-template-columns: auto auto;
     position: absolute;
-    top:630px;
+    top:3300px;
     left:210px
 }
 .sup2 a{
@@ -208,4 +209,11 @@ nav{
 }
 .by3 a:hover{
     background-color: blue;
+}
+.gridcontain2{
+    display: flex;
+    gap: 10px;
+}
+.fl1 img{
+    width: 100%;
 }
