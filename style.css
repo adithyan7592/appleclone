@@ -144,6 +144,7 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color:whitesmoke;
+    gap: 10px;
     
 
 }
@@ -158,36 +159,128 @@ nav{
     object-fit: cover;
 }
 .gridcontain{
+    display: flex;
+    /* gap: 10px; */
+    height: 550px;
+}
+.fl img{
+    width: 100%;
+}
+.fl{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:whitesmoke;
-    /* position: relative; */
+    place-items: center;
+}
+.fl:first-child{
+    background-color: black;
 
 }
-.grid1 .img3{
+.fl:last-child{
+    background-color: whitesmoke;
+
+}
+.gridcontain2{
+    display: flex;
+    height: 550px;
+}
+.fl1 img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+}
+.fl1{
+    display: grid;
+    place-items: center;
+}
+.fl1:first-child{
+    background: linear-gradient(to bottom, #b5e0f2,#f6f8f9);
+}
+.fl1:last-child{
+    background-color: white;
+}
+.Buttons1{
+    display: flex;
+    /* width: fit-content; */
+    gap: 50px;
 
 }
-.grid1 .img4{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+.head1 h1{
+    color: white;
+    justify-content: center;
 }
-.sup2{
- display:grid;
- grid-template-columns: auto auto;
-    position: absolute;
-    top:3300px;
-    left:210px
+.head1 h2{
+    color: brown;
+    font-variant: small-caps;
 }
-.sup2 a{
+.desc1 p{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ln1 a{
     text-decoration: none;
+    color: white;
+    font-size: 19px;
+    background-color: rgb(13, 100, 223);
+    border-radius: 20px;
+    padding: 5px 20px;
+
 }
-.lm2 a{
+.y1 a{
+    color: white;
+    font-size: 19px;
+    background-color: black;
+    border: solid blue;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+.y1 a:hover{
+    background-color: blue;
+    cursor: pointer;
+
+}
+.Buttons{
+    display: flex;
+    /* width: fit-content; */
+    gap: 50px;
+}
+.desc2 p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.desc p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head h2{
+    color: rgb(37, 56, 178);
+    font-family: cursive;
+    position: absolute;
+    top: 3228px;
+    left: 365px;
+    font-size: 30px;
+}
+.ln a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color:  rgb(44, 44, 50);
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.y a{
+    color:  white;
+    font-size: 15px;
+    border: solid rgb(44, 44, 50);
+    border-radius: 20px;
+    padding: 5px 25px;
+    text-decoration: none;
+    margin: 4px;
+}
+.y a:hover{
+    background-color: rgb(44, 44, 50);;
+}
+.button{
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -197,23 +290,6 @@ nav{
     cursor: pointer;
 
 }
-.by3 a{
-    color: black;
-    font-size: 15px;
-    background-color: whitesmoke;
-    border: solid blue;
-    border-radius: 20px;
-    padding: 5px 25px;
-    text-decoration: none;
-    margin: 4px;
-}
-.by3 a:hover{
+.button:hover{
     background-color: blue;
-}
-.gridcontain2{
-    display: flex;
-    gap: 10px;
-}
-.fl1 img{
-    width: 100%;
 }
